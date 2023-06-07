@@ -1,3 +1,5 @@
+// 1. Two sum
+
 const twoSum = function (nums, target) {
   for (let i = 0; i < nums.length; i++) {
     for (let j = i + 1; j < nums.length; j++) {
@@ -6,7 +8,7 @@ const twoSum = function (nums, target) {
       }
     }
   }
-  return flase;
+  return false;
 };
 
 let nums = [2, 7, 11, 15],
