@@ -24,3 +24,8 @@ var nextGreatestLetter = function (letters, target) {
 
   return letters[0];
 };
+
+let letters = ["x", "x", "y", "y"],
+  target = "z";
+
+console.log(nextGreatestLetter(letters, target));
